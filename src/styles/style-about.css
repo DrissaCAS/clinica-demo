@@ -1,0 +1,10 @@
+body {
+    font-size: 14px;
+}
+
+.content {
+    column-count: 2;
+    padding: 0 50px;
+    gap: 22px;
+    text-align: left;
+}

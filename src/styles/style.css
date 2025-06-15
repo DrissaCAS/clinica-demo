@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #900018;
+    line-height: 18px;
+}
+
+body {
+    background-color: #dfc7af;
+}
+
+main {
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+
+    background-color: #f1f1f1;
+    
+    display: grid;
+    grid-template-columns: 200px repeat(2, 1fr);
+    grid-template-rows: 100px repeat(3, 300px) 150px;
+    grid-template-areas: 
+        "header header header"
+        "navbar content content"
+        "navbar content-1 content-2"
+        "navbar content-3 content-3"
+        "footer-1 footer-2 footer-3"
+    ;
+}
+
+nav,
+.content-1,
+.content-2,
+footer {
+    padding: 20px;
+}
+
+header {
+    grid-area: header;
+    background-image: url(../img/Banner-Home.png);
+    background-color: #000000;
+}
+
+header img {
+    padding: 0;
+    margin: -15px 0;
+    width: 200px;
+    height: 120px;
+}
+
+nav {
+    grid-area: navbar;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #dfc7af;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: #cc9da5;
+}
+
+li a {
+    color: #900018;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.content {
+    grid-area: content;
+}
+
+.content-1 {
+    grid-area: content-1;
+}
+
+.content-2 {
+    grid-area: content-2;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+.content img,
+.content-3 img {
+    max-height: 300px;
+    width: 100%;
+}
+
+.content-1 p {
+    font-size: 12px;
+}
+
+.content-1 h2 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.content-2,
+.content-1,
+.content-3 {
+    margin: auto;
+    padding: auto;
+}
+
+.content-2 img {
+    max-width: 300px;
+    border-radius: 150px 10px;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+footer {
+    color: #f1f1f1;
+    background-color: #000000;
+    display: flex;
+}
+
+.footer-1 {
+    grid-area: footer-1;
+    background-color: #000000;
+}
+
+.footer-1 img {
+    max-width: 100px;
+    padding: 20px;
+}
+
+.footer-2 {
+    grid-area: footer-2;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+
+.footer-2 p {
+    font-size: 12px;
+    text-align: left;
+    padding: 20px 30px;
+}   
+
+.footer-3 {
+    grid-area: footer-3;
+    background-color: #000000;
+    color: #f1f1f1;
+    padding: 50px;
+}
+
+.footer-3 a{
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 20px;
+}
