@@ -1,3 +1,7 @@
+header {
+    background-image: url(../img/Banner-About.png);
+}
+
 .content {
     column-count: 2;
     padding: 0 50px;

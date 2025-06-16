@@ -20,7 +20,7 @@ body {
     display: grid;
     grid-template-columns: 200px 800px;
     grid-template-areas: 
-        "header header"
+        "navbar header"
         "navbar main"
         "navbar main"
         "footer footer"
@@ -31,13 +31,15 @@ header {
     grid-area: header;
     background-image: url(../img/Banner-Home.png);
     background-color: #000000;
+    color: #000000;
+    height: 150px;
+    display: flex;
 }
 
-header img {
-    padding: 0;
-    margin: -15px 0;
-    width: 200px;
-    height: 120px;
+header h1 {
+    font-size: 45px;
+    margin-top: 65px;
+    margin-left: 390px;
 }
 
 nav {
@@ -73,61 +75,48 @@ nav li a:hover {
     color: #c78792
 }
 
+nav img {
+    margin: -15px 0;
+    padding: 0;
+    max-width: 180px;
+}
+
 main {
     grid-area: main;
     max-width: 800px;
 }
 
-/* 
-
 .content {
-    grid-area: content;
+    display: flex;
 }
 
-.content-1 {
-    grid-area: content-1;
+.main-img figure img {
+    max-width: 350px;
 }
 
-.content-2 {
-    grid-area: content-2;
+.main-text h1 {
+    padding: 20px;
+    margin-right: 15px;
+    font-size: 50px;
+    line-height: 70px;
 }
 
-.content-3 {
-    grid-area: content-3;
+.main-paragraph p {
+    text-align: left;
+    padding: 5px;
 }
 
-.content img,
-.content-3 img {
-    max-height: 300px;
-    width: 100%;
+.publi figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.content-1 p {
-    font-size: 12px;
+.publi figure img {
+    width: 800px;
+    padding: 30px 0;
+    margin: 0;
 }
-
-.content-1 h2 {
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.content-2,
-.content-1,
-.content-3 {
-    margin: auto;
-    padding: auto;
-}
-
-.content-2 img {
-    max-width: 300px;
-    border-radius: 150px 10px;
-}
-
-.content-3 {
-    grid-area: content-3;
-} 
-
-*/
 
 footer {
     grid-area: footer;

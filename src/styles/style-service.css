@@ -1,0 +1,36 @@
+header {
+    background-image: url(../img/Banner-Service.png);
+}
+
+main .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+}
+
+main .gallery-services {
+    background-color: #900018;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: 15px;
+    text-align: center;
+}
+
+main .gallery-services:hover {
+    background-color: #000000;
+    color: #c78792;
+}
+
+main .gallery i {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+main .gallery p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
