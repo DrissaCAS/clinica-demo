@@ -2,6 +2,18 @@ header {
     background-image: url(../img/Banner-Service.png);
 }
 
+main h2 {
+    font-size: 32px;
+    color: #900018;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
 main .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -32,5 +44,23 @@ main .gallery i {
 main .gallery p {
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.content p {
+    margin-left: 20px;
+    line-height: 1.6;
+}
