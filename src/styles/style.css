@@ -12,6 +12,10 @@ body {
     background-color: #f1f1f1;
 }
 
+a {
+    text-decoration: none;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1000px;
@@ -104,6 +108,7 @@ main {
 .main-paragraph p {
     text-align: left;
     padding: 5px;
+    margin: 0 15px 20px 15px;
 }
 
 .publi figure {
