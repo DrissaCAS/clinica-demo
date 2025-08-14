@@ -1,3 +1,63 @@
 header {
     background-image: url(../img/Banner-Contact.png);
 }
+
+.content {
+    grid-area: main;
+    display: block;
+}
+
+.contact-info,
+.contact-form {
+    grid-area: main;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #900018;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #900018;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #000;
+    color: #c78792;
+    font-weight: bold;
+}
+
+img {
+    width: 750px;
+    margin: 15px 10px;
+    border-radius: 10px;
+}

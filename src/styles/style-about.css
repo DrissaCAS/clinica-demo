@@ -6,5 +6,12 @@ header {
     column-count: 2;
     padding: 0 50px;
     gap: 22px;
-    text-align: left;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
