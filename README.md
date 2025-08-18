@@ -1,74 +1,69 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# 🏥 Clínica Veterinária – Desafio DIO  
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+Este projeto foi desenvolvido como parte da trilha da **Formação HTML Web Developer** da DIO, com o objetivo de praticar **HTML semântico, formulários, tabelas e estruturação de páginas**.  
 
-Além de outros recursos falados nas aulas!
+## 📌 Sobre o desafio  
+O desafio proposto pela DIO consistia em criar um site fictício de uma clínica médica, contendo:  
+- **Página Principal** (com imagem e descrição da clínica)  
+- **Sobre a Clínica** (informações institucionais)  
+- **Horário de Atendimento** (tabela de serviços)  
+- **Contato** (formulário + dados de contato)  
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+🔗 [Veja mais sobre a DIO](https://github.com/digitalinnovationone/trilha-html-modulo-2)  
 
-Abaixo como cada página deve ser criada e estruturada.
+---
 
-### Estrutura das páginas
+## 🚀 Tecnologias utilizadas  
+- **HTML5** – Estruturação e semântica  
+- **CSS3** – Estilização e Flexbox  
+- **Font Awesome** – Ícones de redes sociais  
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+---
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+## 📄 Estrutura do projeto  
+O site é composto por **5 páginas**:  
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+- 🏠 **Home** – Apresentação da clínica com imagens e texto.  
+- ℹ️ **Sobre Nós** – Detalhes sobre a clínica fictícia.  
+- 🕒 **Horários** – Tabela de serviços e horários de atendimento.  
+- 📞 **Contatos** – Formulário com campos obrigatórios e informações de contato.  
+- 💼 **Serviços** (extra) – Página adicional criada para listar os serviços principais, com cards interativos usando Flexbox.  
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+---
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+## 🎯 Aprendizados  
+Durante o desenvolvimento, pratiquei:  
+- Uso de **tags semânticas** para melhor estrutura do código;  
+- Criação de **layouts responsivos** com Flexbox;  
+- Construção e estilização de **tabelas**;  
+- Implementação de **formulários** simples com feedback de envio;  
+- Integração de **ícones externos** via Font Awesome.  
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+---
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+## 📸 Demonstração
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+### Home  
+![Página Inicial](./src/img/Readme/image.png)
 
+### Sobre Nós
+![Sobre nós](./src/img/Readme/image-1.png)
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+### Serviços
+![Serviços](./src/img/Readme/image-2.png)
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+### Nossos Horários
+![Horários](./src/img/Readme/image-3.png)
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+### Contatos
+![Contatos](./src/img/Readme/image-4.png)
 
-Bora pra cima!
+---
+
+## 🔗 Acesse o projeto
+ 
+Você pode visualizar o projeto online clicando aqui: [**Deploy do projeto**](https://drissacas.github.io/clinica-demo/)
+
+---
+
+👨‍💻 Desenvolvido como parte da trilha da **Formação HTML Web Developer – DIO.me**.  
